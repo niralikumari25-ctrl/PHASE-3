@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the day</title>
+    <link rel="stylesheet" href="quo.css">
+</head>
+<body>
+    <button class="prev-btn" onclick="goBack('first.html')">Previous</button>
+    <div class="container">
+        <div class="card">
+           <h1 id="title"> English Quotes</h1> 
+
+           <div class="quote-box">
+           <p id="quote_show"> Hello this is tutorial !</p>
+           <p class="quote_type" id="quote_type_show"> Happy</p>
+           </div>
+           <div class="details">
+           <div class="quote_type_details">
+            <select id="quote_type">
+       <option value="">Quote type</option>
+       <option value="https://dummyjson.com/quotes/random/success">Success</option>
+       <option value="https://dummyjson.com/quotes/random/love">Love</option>
+       <option value="https://dummyjson.com/quotes/random/attitude">Attitude</option>
+       <option value="https://dummyjson.com/quotes/random/positive">Positive</option>
+       <option value="https://dummyjson.com/quotes/random/motivational">Motivational</option>
+       </select>
+            </div>
+
+           <div class="quote_lang">
+            <select id="language">
+                <option value="">Language</option>
+                <option value="hindi">Hindi</option>
+                <option value="english">English</option>
+            </select>
+           </div>
+        </div>
+
+        <div class="btn">
+            <button id="next">Quotes</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="quo.js"></script>
+    <script src="navigation.js"></script>
+</body>
+</html>
