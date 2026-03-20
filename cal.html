@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calcualtor</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="nav-buttons">
+   <button onclick="goBack('to.html')">Previous</button>
+<button onclick="goNext('quo.html')">Next</button>
+    </div>
+    <div class="container">
+    <h1>Tip Calculator</h1>
+    <p>Enter the bill amount and tip percentage to calculator the Total:</p>
+    <form action="">
+        <label for="bill">Enter bill Amount:</label>
+        <input type="number" name="billAmount" id="bill">
+        <label for="tip">Enter Tip Amount:</label>
+        <input type="number" name="tipAmount" id="tip">
+        <label>Number of People:</label>
+<input type="number" id="people" placeholder="Enter number of people">
+         <button>Calculate</button>
+         <label for="total">Total</label>
+         <span id="total">0</span>
+         
+    </form>
+</div>
+<script src="cal.js"></script>
+<script src="navigation.js"></script>
+</body>
+</html>
+  
