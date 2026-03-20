@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-Do List APP - Easy Tutorials </title>
+    <link rel="stylesheet" href="to.css">
+</head>
+<body>
+    <div class="nav-buttons">
+    <button onclick="goBack('first.html')">Previous</button>
+<button onclick="goNext('cal.html')">Next</button>
+    </div>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="https://www.slideteam.net/media/catalog/product/cache/1280x720/t/o/to_do_list_with_clipcard_colored_icon_in_powerpoint_pptx_png_and_editable_eps_format_slide01.jpg" height="100px" width="200px"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+
+    </div>
+    <script src="to.js"></script>
+    <script src="navigation.js"></script>
+</body>
+</html>
